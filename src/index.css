@@ -1,0 +1,60 @@
+@import 
+url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: sans-serif;
+  color: #0d0e0f;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body{
+  background-color: #fafafa;
+}
+
+
+
+.input-group.md-form.form-sm.form-2 input {
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border {
+  border: 1px solid #ef9a9a;
+}
+.input-group.md-form.form-sm.form-2 input.lime-border {
+  border: 1px solid #cddc39;
+}
+.input-group.md-form.form-sm.form-2 input.amber-border {
+  border: 1px solid #ffca28;
+}
+.app-head {
+padding-top: 25px;
+padding-bottom: 25px;
+text-align: center;
+}
+.search-bar {
+  margin: auto;
+}
+.searchButton {
+  border: none;
+  background: #fafafa;
+  padding: 0 10px 10px 10px;
+  outline: none;
+}  
+.searchButton:focus {
+  outline: none;
+  border: none;
+}
+.loader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+}
+.spinner-border {
+  width: 10rem;
+  height: 10rem;
+}
